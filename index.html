@@ -25,7 +25,7 @@
               "nav-menu-primary": "#424247",
               "nav-menu-icon": "#89898B",
               "banner-floating": "rgb(19, 19, 24)",
-              radial: "#E7E7E8",
+              "radial": "#E7E7E8",
             },
           },
         },
@@ -51,7 +51,7 @@
   </head>
   <body class="font-manrope">
     <!-- header section -->
-    <header class="w-full md:container md:mx-auto md:w-3/4 mb-28">
+    <header class="container mx-auto mb-28 px-5 xl:px-0">
       <!-- navbar -->
       <nav class="mb-12">
         <div class="navbar bg-base-100">
@@ -241,9 +241,9 @@
     </header>
 
     <!-- main section -->
-    <main class="space-y-28 w-full md:container md:mx-auto md:w-3/4">
+    <main class="container mx-auto space-y-28">
       <!-- club -->
-      <section>
+      <section class="px-5 xl:px-5">
         <div
           class="space-y-5 border-y-2 border-dashed border-gray-200 py-8 mb-12"
         >
@@ -355,7 +355,7 @@
       </section>
 
       <!-- program section -->
-      <section>
+      <section class="px-5 xl:px-5">
         <div
           class="space-y-5 border-y-2 border-dashed border-gray-400 py-8 mb-12"
         >
@@ -427,7 +427,7 @@
       </section>
 
       <!-- products -->
-      <!-- <section>
+      <!-- <section class="px-5 xl:px-5">
             <div class="space-y-5 border-y-2 border-dashed border-gray-400 py-8 mb-12">
                 <h1 class="text-4xl font-extrabold text-banner-floating text-center">Our New Products</h1>
                 <p class="w-1/2 mx-auto text-gray-500 text-sm font-medium text-center leading-6">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
@@ -435,15 +435,67 @@
         </section> -->
 
       <!-- FAQ section -->
-      <!-- <section>
+      <section class="px-5 xl:px-5">
             <div class="space-y-5 border-y-2 border-dashed border-gray-400 py-8 mb-12">
                 <h1 class="text-4xl font-extrabold text-banner-floating text-center">Clients Question</h1>
                 <p class="w-1/2 mx-auto text-gray-500 text-sm font-medium text-center leading-6">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
             </div>
-        </section> -->
+
+            <!-- Queries -->
+            <div class="flex flex-col lg:flex-row items-center border rounded-2xl p-5 xl:p-8 gap-7 md:gap-7 lg:gap-5 xl:gap-10">
+              <div>
+                <img class="w-full" src="./Images/11.png">
+              </div>
+
+              <div>
+                <div class="collapse collapse-plus">
+                  <input type="radio" name="my-accordion-3" checked="checked" />
+                  <div class="collapse-title font-bold text-banner-floating text-lg">Our Equipment</div>
+                  <div class="collapse-content">
+                    <p class="text-base font-light">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+                  </div>
+                </div>
+                <div class="collapse collapse-plus">
+                  <input type="radio" name="my-accordion-3" />
+                  <div class="collapse-title font-bold text-banner-floating text-lg">Hockey Training</div>
+                  <div class="collapse-content">
+                    <p class="text-base font-light">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+                  </div>
+                </div>
+                <div class="collapse collapse-plus">
+                  <input type="radio" name="my-accordion-3" />
+                  <div class="collapse-title font-bold text-banner-floating text-lg">Private Lessons</div>
+                  <div class="collapse-content">
+                    <p class="text-base font-light">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+                  </div>
+                </div>
+                <div class="collapse collapse-plus">
+                  <input type="radio" name="my-accordion-3" />
+                  <div class="collapse-title font-bold text-banner-floating text-lg">Ski Touring</div>
+                  <div class="collapse-content">
+                    <p class="text-base font-light">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+                  </div>
+                </div>
+                <div class="collapse collapse-plus">
+                  <input type="radio" name="my-accordion-3" />
+                  <div class="collapse-title font-bold text-banner-floating text-lg">Booking</div>
+                  <div class="collapse-content">
+                    <p class="text-base font-light">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+                  </div>
+                </div>
+                <div class="collapse collapse-plus">
+                  <input type="radio" name="my-accordion-3" />
+                  <div class="collapse-title font-bold text-banner-floating text-lg">Pricings</div>
+                  <div class="collapse-content">
+                    <p class="text-base font-light">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
 
       <!-- get in touch -->
-      <section>
+      <section class="px-5 xl:px-5">
         <div
           class="space-y-5 border-y-2 border-dashed border-gray-400 py-8 mb-12"
         >
@@ -461,7 +513,7 @@
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
 
             <!-- contact -->
-          <div class="mx-5 lg:mx-0 border p-8 rounded-xl space-y-6">
+          <div class="border p-5 lg:p-8 rounded-xl space-y-6">
             <div>
                 <div class="p-8 rounded-xl bg-[#BCED6D1A]">
                   <img src="./Images/phone.png" />
